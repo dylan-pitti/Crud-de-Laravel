@@ -27,7 +27,8 @@ Documentar, en el orden de las capturas, el proceso de creación de un proyecto 
 
 ## 1. Creación del proyecto Laravel
 
-![Captura 1: creación del proyecto](capturas/01_creacion_proyecto.png)
+<img width="975" height="563" alt="image" src="https://github.com/user-attachments/assets/48f5511e-7861-41e8-ba79-053b2d889925" />
+
 
 La primera captura muestra la creación del proyecto desde PowerShell, ubicado en la carpeta de proyectos de WampServer:
 
@@ -46,7 +47,8 @@ cd C:\wamp64\www\crud_rapido
 
 ## 2. Configuración de AppServiceProvider
 
-![Captura 2: configuración de AppServiceProvider](capturas/02_configuracion_appserviceprovider.png)
+<img width="685" height="790" alt="image" src="https://github.com/user-attachments/assets/9b2efd6c-a415-44d1-9fe9-c8c2069a7cc3" />
+
 
 En la segunda captura se observa el archivo `app/Providers/AppServiceProvider.php`. En el método `boot()` se configura la longitud predeterminada de los campos de texto para los índices de la base de datos:
 
@@ -64,7 +66,8 @@ Esta configuración puede ayudar a evitar problemas de longitud de índices en d
 
 ## 3. Creación del modelo y la migración
 
-![Captura 3: generación del modelo Product y migración](capturas/03_creacion_modelo_migracion.png)
+<img width="850" height="264" alt="image" src="https://github.com/user-attachments/assets/7eefca77-3fc2-4a1a-ae1a-b1004d19e7da" />
+
 
 La tercera captura muestra la ejecución del comando:
 
@@ -81,7 +84,8 @@ El modelo representa los productos dentro de la aplicación; la migración defin
 
 ## 4. Definición de la tabla products
 
-![Captura 4: estructura de la tabla products](capturas/04_definicion_tabla_products.png)
+<img width="975" height="271" alt="image" src="https://github.com/user-attachments/assets/07108b04-99ab-4472-82e1-8d9efb676466" />
+
 
 En la cuarta captura se ve la migración de `products`. Los campos que aparecen definidos son:
 
@@ -109,7 +113,8 @@ Asegúrate de guardar la migración antes de ejecutarla.
 
 ## 5. Generación del CRUD
 
-![Captura 5: generación del CRUD de products](capturas/05_generacion_crud_products.png)
+<img width="920" height="253" alt="image" src="https://github.com/user-attachments/assets/843748c7-c232-4643-a4d6-e66c01ff83fb" />
+
 
 La quinta captura muestra el comando:
 
@@ -123,7 +128,8 @@ Si tu terminal no reconoce `make:crud`, revisa qué paquete o extensión proporc
 
 ## 6. Migración de la base de datos
 
-![Captura 6: ejecución de las migraciones](capturas/06_migracion_products.png)
+<img width="840" height="165" alt="image" src="https://github.com/user-attachments/assets/ecc7f589-722a-4e49-9cb9-f9973f1c930c" />
+
 
 La sexta captura muestra una migración ejecutada correctamente:
 
@@ -137,7 +143,8 @@ Revisa como mínimo las variables `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DAT
 
 ## 7. Instalación de dependencias y ejecución de Vite
 
-![Captura 7: instalación de dependencias y Vite](capturas/07_instalacion_dependencias_vite.png)
+<img width="840" height="378" alt="image" src="https://github.com/user-attachments/assets/549ed99f-ca2a-43cc-93fd-7d6981ca724b" />
+
 
 La séptima captura muestra la instalación de paquetes de JavaScript y el inicio del servidor de desarrollo:
 
@@ -150,7 +157,8 @@ npm run dev
 
 ## 8. Comprobación de la interfaz
 
-![Captura 8: interfaz del CRUD de productos](capturas/08_interfaz_crud_products.png)
+<img width="975" height="209" alt="image" src="https://github.com/user-attachments/assets/d3b3a1d1-a099-449a-a3e1-9e3083f15b2e" />
+
 
 La última captura presenta la interfaz web de productos. Se observa una página con el listado de productos, una acción para crear un producto y controles de acción en la tabla.
 
